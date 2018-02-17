@@ -1,9 +1,9 @@
 <template>
   <div>
     <aside class="menu">
-      <p class="menu-label">Emogit</p>
+      <p class="menu-label">An emoji guide for your commit messages</p>
       <ul class="menu-list">
-        <li><a>EMOJI_CHEAT_SHEET</a></li>
+        <li><a>Emogit</a></li>
         <li>
           <a class="is-active">succees code</a>
           <ul>
