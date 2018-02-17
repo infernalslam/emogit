@@ -1,11 +1,10 @@
 <template>
   <div>
     <aside class="menu">
-      <p class="menu-label">An emoji guide for your commit messages</p>
+      <p class="menu-label">Make it easy to read and write commit for review code.</p>
       <ul class="menu-list">
         <li><a>Emogit</a></li>
         <li>
-          <a class="is-active">succees code</a>
           <ul>
             <li><a>success</a></li>
             <li><a>bug</a></li>
