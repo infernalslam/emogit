@@ -2,9 +2,11 @@
 <div class="columns">
   <button v-if="showToggle === true" @click="changeToggle(showToggle)">⏩</button>
   <button v-if="showToggle === false" @click="changeToggle(showToggle)">⏪</button>
-  <div class="column is-2" v-if="showToggle">
-    <side-menu />
-  </div>
+   <transition name="slide-fade">
+    <div class="column is-2" v-if="showToggle">
+      <side-menu />
+    </div>
+   </transition>
   <div class="column">
     <router-view />
   </div>
@@ -31,3 +33,19 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
+}
+</style>

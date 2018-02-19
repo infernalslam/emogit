@@ -1,4 +1,4 @@
-# emogit ver. minika
+# emogit ver. minika v0.01
 
 > A Vue.js project
 

@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     Octocat
-    <img src="../assets/octocat.png" alt="John" style="width:100%">
+    <img src="../assets/octocat.png" style="width:100%">
     <button class="btn-card">Copy clipboard</button>
   </div>
 </template>
