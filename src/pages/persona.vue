@@ -14,9 +14,7 @@
     />
     <br><h3 class="is-size-3 has-text-centered">......</h3><br>
     <div class="columns">
-      <!-- <div class="column"> -->
         <div v-for="(item, index) in 10" :key="index"><images /></div>
-      <!-- </div> -->
     </div>
   </div>
 </template>
