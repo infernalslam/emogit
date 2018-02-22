@@ -1,4 +1,5 @@
 # emogit ver. minika v0.01
+comming up css layout with data migration!
 
 > A Vue.js project
 
